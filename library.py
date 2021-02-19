@@ -62,7 +62,7 @@ class Library():
             self.cursor.execute(query_second,(press,name))
             self.connection.commit()
         else:
-            print("No such book")
+            print("There is no book named {} in this library".format(name))
 
 
 
